@@ -1,0 +1,20 @@
+﻿<Window x:Class="MuzickiPlejer.Settings"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MuzickiPlejer"
+        mc:Ignorable="d"
+        Title="Settings" Height="332" Width="550
+">
+    <Grid>
+        
+        <Label Content="U ovom labelu pocivaju sve nade Hevi Metala. Svi Punk ideali i Rock lifestyle." HorizontalAlignment="Left" Height="25" Margin="10,266,0,0" VerticalAlignment="Top" Width="522"/>
+        <Button x:Name="pesma" Content="Pesme" HorizontalAlignment="Left" Height="60" Margin="15,10,0,0" VerticalAlignment="Top" Width="85" Click="otvoriPesme"/>
+        <Button x:Name="izvodjac" Content="Izvodjaci" HorizontalAlignment="Left" Height="60" Margin="105,10,0,0" VerticalAlignment="Top" Width="85" Click="otvoriIzv"/>
+        <Button x:Name="album" Content="Albumi" HorizontalAlignment="Left" Height="60" Margin="195,10,0,0" VerticalAlignment="Top" Width="85" Click="otvoriAlb"/>
+        <Button x:Name="izdKuca" Content="Izdavacka Kuca" HorizontalAlignment="Left" Height="60" Margin="285,10,0,0" VerticalAlignment="Top" Width="85" Click="otvoriIzd"/>
+        <Button x:Name="zanr" Content="Zanr" HorizontalAlignment="Left" Height="60" Margin="375,10,0,0" VerticalAlignment="Top" Width="85" Click="otvoriZanr"/>
+
+    </Grid>
+</Window>
